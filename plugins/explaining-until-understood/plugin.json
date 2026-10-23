@@ -1,0 +1,10 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "explaining-until-understood",
+  "version": "0.1.0",
+  "description": "질문에 맞는 근거와 설명을 제공하고, 실패 이력을 참고해 같은 설명 실수를 줄이는 스킬.",
+  "author": {
+    "name": "alstjq8251"
+  },
+  "repository": "https://github.com/ai-ext/agent-plugins"
+}

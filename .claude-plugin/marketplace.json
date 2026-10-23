@@ -1,0 +1,14 @@
+{
+  "name": "ai-ext",
+  "description": "Claude Code와 Codex에서 사용하는 범용 스킬 플러그인.",
+  "owner": {
+    "name": "ai-ext"
+  },
+  "plugins": [
+    {
+      "name": "explaining-until-understood",
+      "source": "./plugins/explaining-until-understood",
+      "description": "질문에 맞는 근거와 설명을 제공하고, 실패 이력을 참고해 같은 설명 실수를 줄이는 스킬."
+    }
+  ]
+}

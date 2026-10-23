@@ -1,0 +1,20 @@
+{
+  "name": "ai-ext",
+  "interface": {
+    "displayName": "AI Ext Plugins"
+  },
+  "plugins": [
+    {
+      "name": "explaining-until-understood",
+      "source": {
+        "source": "local",
+        "path": "./plugins/explaining-until-understood"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
